@@ -21,8 +21,14 @@ elm-package install
 ## Create a Github AuthN token
 See Richard Feldman's [workshop README](https://github.com/rtfeldman/elm-workshop) for instructions
 
-## Building
+## Building will fail until you create Auth.elm as described above
 
 ```bash
 elm-make Main.elm --output=elm.js
 ```
+
+## Open the root folder's index.html file in a browser
+
+You will see:
+
+![screenshot of the default state](elm-se-list.png)
