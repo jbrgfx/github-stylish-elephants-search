@@ -1,5 +1,5 @@
 # Elm list of stylish-elephants repos
-Github repos having "stylish-elephants" in the project name or the project description on GitHub.
+Github repos having "stylish-elephants" in the project name or the project description.
 
 Originally Part 14 of [rtfeldman's workshop](https://github.com/rtfeldman/elm-workshop/tree/master/part14)
 Refactored using stylish-elephants
