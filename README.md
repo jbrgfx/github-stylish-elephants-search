@@ -13,6 +13,7 @@ You need Elm 0.18 installed
 ## Installation
 
 clone this repo
+and then from the project's root:
 
 ```bash
 elm-package install
