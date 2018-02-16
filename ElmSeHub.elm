@@ -120,8 +120,9 @@ view model =
             , row
                 []
                 [ paragraph
-                    [ width (px 400)
+                    [ width (px 380)
                     , Element.spacing 10
+                    , Background.color darkBlue
                     ]
                     (List.map viewSearchResult model.results)
                 ]
@@ -166,7 +167,7 @@ viewSearchResult result =
 
 
 gutter =
-    20
+    10
 
 
 paddingLeft n =
