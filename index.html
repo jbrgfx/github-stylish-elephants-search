@@ -15,15 +15,12 @@
 <script type="text/javascript">
   // documentation: https://github.com/michael/github
   var github = new Github();
-
   var app = Elm.Main.embed(document.getElementById("elm-landing-pad"));
-
   function searchGithub(query) {
     github.getSearch(query).repositories({}, function (err, repositories) {
       app.ports.githubResponse.send(repositories);
     });
   }
-
   app.ports.githubSearch.subscribe(searchGithub);
 </script>
 

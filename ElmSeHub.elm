@@ -153,9 +153,8 @@ viewSearchResult result =
     newTabLink
         [ padding gutter
         , Background.color darkBlue
-        , Background.mouseOverColor Color.lightOrange
         , Font.color Color.white
-        , Font.mouseOverColor Color.darkBlue
+        , Element.mouseOver [ Font.color Color.darkBlue, Background.color Color.orange ]
         , Font.bold
         , Font.size 18
         , Font.underline
