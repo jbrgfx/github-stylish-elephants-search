@@ -5,3 +5,4 @@ Auth.elm
 generated-code
 build-artifacts
 *.log
+test-query-code.txt
