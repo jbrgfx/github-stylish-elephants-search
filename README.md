@@ -1,6 +1,9 @@
 # Elm list of stylish-elephants repos
 Github repos having "stylish-elephants" in the project name or the project description.
 
+# Demo
+[github-stylish-elephants-search](https://jbrgfx.github.io/github-stylish-elephants-search/)
+
 Originally Part 14 of [rtfeldman's workshop](https://github.com/rtfeldman/elm-workshop/tree/master/part14)
 Refactored using stylish-elephants
 
