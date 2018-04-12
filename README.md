@@ -24,6 +24,7 @@ elm-package install
 
 ## Create a Github AuthN token
 See Richard Feldman's [workshop README](https://github.com/rtfeldman/elm-workshop) for instructions
+Do not commit the token to github or another version control system.
 
 ## Building will fail until you create Auth.elm as described above
 
